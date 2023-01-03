@@ -1,0 +1,43 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #161625;
+  min-height: 100vh;
+}
+
+.responsive {
+  margin: 70px;
+}
+
+.nav-container {
+  display: flex;
+  width: 200px;
+  align-items: center;
+  margin-left: 70px;
+}
+.logo-image {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #2cc6c6;
+  font-size: 24px;
+}
+.pre-heading {
+  font-family: 'Roboto';
+  color: #cbd5e1;
+  font-size: 22px;
+
+  margin-left: 70px;
+}
+
+.failure-container {
+  display: flex;
+  justify-content: center;
+}
+.failure-image {
+  height: 75%;
+  width: 50%;
+}
